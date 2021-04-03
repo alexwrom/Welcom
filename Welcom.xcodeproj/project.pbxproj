@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A46986D2618AA1500FB4887 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A46986A2618AA1500FB4887 /* Screenshot02.png */; };
-		5A46986E2618AA1500FB4887 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A46986B2618AA1500FB4887 /* Screenshot03.png */; };
-		5A46986F2618AA1500FB4887 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A46986C2618AA1500FB4887 /* Screenshot01.png */; };
 		5AD9669926176C82009C4806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9669826176C82009C4806 /* AppDelegate.swift */; };
 		5AD9669B26176C82009C4806 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9669A26176C82009C4806 /* SceneDelegate.swift */; };
 		5AD966A026176C82009C4806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD9669E26176C82009C4806 /* Main.storyboard */; };
@@ -18,9 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A46986A2618AA1500FB4887 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot02.png; path = ../../../../Desktop/Screenshot02.png; sourceTree = "<group>"; };
-		5A46986B2618AA1500FB4887 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot03.png; path = ../../../../Desktop/Screenshot03.png; sourceTree = "<group>"; };
-		5A46986C2618AA1500FB4887 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot01.png; path = ../../../../Desktop/Screenshot01.png; sourceTree = "<group>"; };
+		5A4698962618AEF100FB4887 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		5A4698972618AEF100FB4887 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		5A4698982618AEF100FB4887 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 		5AD9669526176C82009C4806 /* Welcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD9669826176C82009C4806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD9669A26176C82009C4806 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +38,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A4698612618A9B200FB4887 /* Screenshots */ = {
+		5A4698952618AEE500FB4887 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				5A46986C2618AA1500FB4887 /* Screenshot01.png */,
-				5A46986A2618AA1500FB4887 /* Screenshot02.png */,
-				5A46986B2618AA1500FB4887 /* Screenshot03.png */,
+				5A4698972618AEF100FB4887 /* Screenshot01.png */,
+				5A4698982618AEF100FB4887 /* Screenshot02.png */,
+				5A4698962618AEF100FB4887 /* Screenshot03.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -54,6 +51,7 @@
 		5AD9668C26176C82009C4806 = {
 			isa = PBXGroup;
 			children = (
+				5A4698952618AEE500FB4887 /* Screenshots */,
 				5AD9669726176C82009C4806 /* Welcom */,
 				5AD9669626176C82009C4806 /* Products */,
 			);
@@ -70,7 +68,6 @@
 		5AD9669726176C82009C4806 /* Welcom */ = {
 			isa = PBXGroup;
 			children = (
-				5A4698612618A9B200FB4887 /* Screenshots */,
 				5AD9669826176C82009C4806 /* AppDelegate.swift */,
 				5AD9669A26176C82009C4806 /* SceneDelegate.swift */,
 				5AD9669E26176C82009C4806 /* Main.storyboard */,
@@ -140,10 +137,7 @@
 			files = (
 				5AD966A526176C8A009C4806 /* LaunchScreen.storyboard in Resources */,
 				5AD966A226176C8A009C4806 /* Assets.xcassets in Resources */,
-				5A46986F2618AA1500FB4887 /* Screenshot01.png in Resources */,
 				5AD966A026176C82009C4806 /* Main.storyboard in Resources */,
-				5A46986E2618AA1500FB4887 /* Screenshot03.png in Resources */,
-				5A46986D2618AA1500FB4887 /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
